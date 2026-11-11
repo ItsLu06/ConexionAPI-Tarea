@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\wwwroot\\js\\explorador.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:wwwroot\\js\\explorador.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\wwwroot\\css\\explorador.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:wwwroot\\css\\explorador.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|c:\\users\\draka\\onedrive\\desktop\\univalle\\cuarto_semestre\\programacion_web_iii\\unidad_3\\conexionapitarea\\conexionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60446B79-7474-99D3-6E01-E41F72D84D7D}|ConexionAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-11T00:25:09.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "explorador.js",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\wwwroot\\js\\explorador.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\explorador.js",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\wwwroot\\js\\explorador.js",
+              "RelativeToolTip": "wwwroot\\js\\explorador.js",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAAwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-11T00:17:04.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "explorador.css",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\wwwroot\\css\\explorador.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\explorador.css",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\wwwroot\\css\\explorador.css",
+              "RelativeToolTip": "wwwroot\\css\\explorador.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-11T00:16:17.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:16:07.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:16:04.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-11T00:09:12.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:16:00.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:15:59.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:15:53.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:15:52.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:15:49.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:15:47.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:15:45.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T00:15:44.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\draka\\OneDrive\\Desktop\\Univalle\\Cuarto_Semestre\\Programacion_Web_III\\Unidad_3\\ConexionAPITarea\\ConexionAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:15:25.274Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

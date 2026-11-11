@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Explorador de contenido aleatorio</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/explorador.css" />
+</head>
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <p class="encabezado-etiqueta">Programación Web III - Lucas Boris Gomez Giles</p>
+            <h1 class="encabezado-titulo">Explorador de contenido aleatorio</h1>
+            <p class="encabezado-subtitulo">Cuatro APIs públicas, una página. Cada tarjeta se actualiza por separado, sin recargar.</p>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <div class="row g-4">
+
+            <!-- 1. Citas — DummyJSON -->
+            <div class="col-12 col-lg-6">
+                <article class="card seccion h-100" data-seccion="cita" aria-labelledby="titulo-cita" aria-busy="false">
+                    <div class="card-header seccion-cabecera">
+                        <span class="seccion-numero" aria-hidden="true">01</span>
+                        <h2 id="titulo-cita" class="h5 mb-0">Citas</h2>
+                        <span class="seccion-origen">DummyJSON</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="zona" aria-live="polite">
+                            <div class="estado" data-estado="cargando" role="status">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                <span>Cargando…</span>
+                            </div>
+                            <div class="estado" data-estado="error" role="alert" hidden>
+                                <p class="mensaje-error" data-campo="mensaje-error"></p>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-accion="reintentar">Reintentar</button>
+                            </div>
+                            <div class="estado-contenido" data-estado="contenido" hidden>
+                                <blockquote class="cita mb-0">
+                                    <p class="cita-texto" id="cita-texto"></p>
+                                    <footer class="cita-autor" id="cita-autor"></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="mt-auto pt-3">
+                            <button type="button" class="btn boton-seccion" data-accion="actualizar">Obtener otra cita</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- 2. Perros — Dog CEO -->
+            <div class="col-12 col-lg-6">
+                <article class="card seccion h-100" data-seccion="perro" aria-labelledby="titulo-perro" aria-busy="false">
+                    <div class="card-header seccion-cabecera">
+                        <span class="seccion-numero" aria-hidden="true">02</span>
+                        <h2 id="titulo-perro" class="h5 mb-0">Perros</h2>
+                        <span class="seccion-origen">Dog CEO</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="zona" aria-live="polite">
+                            <div class="estado" data-estado="cargando" role="status">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                <span>Cargando…</span>
+                            </div>
+                            <div class="estado" data-estado="error" role="alert" hidden>
+                                <p class="mensaje-error" data-campo="mensaje-error"></p>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-accion="reintentar">Reintentar</button>
+                            </div>
+                            <figure class="estado-contenido figura" data-estado="contenido" hidden>
+                                <div class="marco-imagen">
+                                    <img id="perro-imagen" class="imagen-uniforme" alt="Foto aleatoria de un perro" />
+                                </div>
+                                <figcaption class="figura-pie" id="perro-pie"></figcaption>
+                            </figure>
+                        </div>
+                        <div class="mt-auto pt-3">
+                            <button type="button" class="btn boton-seccion" data-accion="actualizar">Mostrar otro perro</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- 3. Gatos — CATAAS -->
+            <div class="col-12 col-lg-6">
+                <article class="card seccion h-100" data-seccion="gato" aria-labelledby="titulo-gato" aria-busy="false">
+                    <div class="card-header seccion-cabecera">      
+                        <span class="seccion-numero" aria-hidden="true">03</span>
+                        <h2 id="titulo-gato" class="h5 mb-0">Gatos</h2>
+                        <span class="seccion-origen">CATAAS</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="zona" aria-live="polite">
+                            <div class="estado" data-estado="cargando" role="status">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                <span>Cargando…</span>
+                            </div>
+                            <div class="estado" data-estado="error" role="alert" hidden>
+                                <p class="mensaje-error" data-campo="mensaje-error"></p>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-accion="reintentar">Reintentar</button>
+                            </div>
+                            <figure class="estado-contenido figura" data-estado="contenido" hidden>
+                                <div class="marco-imagen">
+                                    <img id="gato-imagen" class="imagen-uniforme" alt="Foto aleatoria de un gato" />
+                                </div>
+                                <figcaption class="figura-pie" id="gato-pie"></figcaption>
+                            </figure>
+                        </div>
+                        <div class="mt-auto pt-3">
+                            <button type="button" class="btn boton-seccion" data-accion="actualizar">Mostrar otro gato</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- 4. Datos curiosos — Useless Facts -->
+            <div class="col-12 col-lg-6">
+                <article class="card seccion h-100" data-seccion="dato" aria-labelledby="titulo-dato" aria-busy="false">
+                    <div class="card-header seccion-cabecera">
+                        <span class="seccion-numero" aria-hidden="true">04</span>
+                        <h2 id="titulo-dato" class="h5 mb-0">Datos curiosos</h2>
+                        <span class="seccion-origen">Useless Facts</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="zona" aria-live="polite">
+                            <div class="estado" data-estado="cargando" role="status">
+                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                <span>Cargando…</span>
+                            </div>
+                            <div class="estado" data-estado="error" role="alert" hidden>
+                                <p class="mensaje-error" data-campo="mensaje-error"></p>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-accion="reintentar">Reintentar</button>
+                            </div>
+                            <div class="estado-contenido" data-estado="contenido" hidden>
+                                <p class="dato-texto" id="dato-texto"></p>
+                            </div>
+                        </div>
+                        <div class="mt-auto pt-3">
+                            <button type="button" class="btn boton-seccion" data-accion="actualizar">Mostrar otro dato</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="pie">
+        <div class="container">
+            Programación Web III · Datos de
+            <a href="https://dummyjson.com/docs/quotes" target="_blank" rel="noopener">DummyJSON</a>,
+            <a href="https://dog.ceo/dog-api/documentation/random" target="_blank" rel="noopener">Dog CEO</a>,
+            <a href="https://cataas.com/" target="_blank" rel="noopener">CATAAS</a> y
+            <a href="https://uselessfacts.jsph.pl/" target="_blank" rel="noopener">Useless Facts</a>
+        </div>
+    </footer>
+
+    <script src="js/explorador.js"></script>
+</body>
+</html>

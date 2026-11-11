@@ -1,0 +1,155 @@
+:root {
+    --fondo: #f7f6f3;
+    --superficie: #ffffff;
+    --tinta: #1c1b19;
+    --tinta-suave: #6b6760;
+    --borde: #e4e1da;
+    --acento: #0f766e;
+    --acento-oscuro: #115e59;
+}
+
+body {
+    background: var(--fondo);
+    color: var(--tinta);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+[hidden] { display: none !important; }
+
+.encabezado {
+    background: var(--superficie);
+    border-bottom: 1px solid var(--borde);
+    padding: 2.25rem 0 1.75rem;
+    margin-bottom: 2rem;
+}
+.encabezado-etiqueta {
+    margin: 0 0 .5rem;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--tinta-suave);
+}
+.encabezado-titulo {
+    margin: 0 0 .5rem;
+    font-size: clamp(1.7rem, 5vw, 2.5rem);
+    font-weight: 800;
+    letter-spacing: -.025em;
+    line-height: 1.15;
+}
+.encabezado-subtitulo { margin: 0; color: var(--tinta-suave); max-width: 40rem; }
+
+main { flex: 1; }
+
+.pie { padding: 1.5rem 0; color: var(--tinta-suave); font-size: .85rem; border-top: 1px solid var(--borde); background: var(--superficie); }
+.pie a { color: inherit; }
+
+.seccion {
+    background: var(--superficie);
+    border: 1px solid var(--borde);
+    border-left: 5px solid var(--acento);
+    border-radius: .5rem;
+    box-shadow: none;
+    overflow: hidden;
+}
+.seccion[data-seccion="cita"]  { --acento: #0f766e; --acento-oscuro: #115e59; }
+.seccion[data-seccion="perro"] { --acento: #b45309; --acento-oscuro: #92400e; }
+.seccion[data-seccion="gato"]  { --acento: #be123c; --acento-oscuro: #9f1239; }
+.seccion[data-seccion="dato"]  { --acento: #4338ca; --acento-oscuro: #3730a3; }
+
+.seccion-cabecera {
+    display: flex;
+    align-items: baseline;
+    gap: .75rem;
+    background: transparent;
+    border-bottom: 1px solid var(--borde);
+    padding: 1rem 1.25rem .85rem;
+}
+.seccion-numero {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .85rem;
+    font-weight: 700;
+    color: var(--acento);
+}
+.seccion-cabecera h2 { font-weight: 700; letter-spacing: -.01em; }
+.seccion-origen {
+    margin-left: auto;
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--tinta-suave);
+}
+
+.seccion .card-body { padding: 1.25rem; }
+
+.zona { min-height: 21rem; display: flex; flex-direction: column; justify-content: center; }
+
+.estado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    flex: 1;
+    text-align: center;
+    color: var(--tinta-suave);
+}
+.estado[data-estado="cargando"] { flex-direction: row; }
+.estado-contenido { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+
+.mensaje-error { margin: 0; color: #b91c1c; max-width: 26rem; }
+
+.boton-seccion {
+    width: 100%;
+    background: var(--tinta);
+    border: 1px solid var(--tinta);
+    color: #fff;
+    font-weight: 600;
+    padding: .65rem 1rem;
+    border-radius: .4rem;
+    transition: background-color .15s, border-color .15s;
+}
+.boton-seccion:hover, .boton-seccion:focus-visible { background: var(--acento); border-color: var(--acento); color: #fff; }
+.boton-seccion:disabled { background: var(--tinta); border-color: var(--tinta); color: #fff; opacity: .45; cursor: not-allowed; }
+
+.cita { padding: 0; border-left: 0; }
+.cita::before {
+    content: "“";
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4.25rem;
+    line-height: .7;
+    color: var(--acento);
+}
+.cita-texto { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.2rem, 3.4vw, 1.55rem); line-height: 1.45; margin-bottom: 1rem; overflow-wrap: anywhere; }
+.cita-autor { font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-suave); }
+.cita-autor::before { content: "— "; }
+
+.figura { margin: 0; }
+.marco-imagen {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: #ebe9e3;
+    border-radius: .35rem;
+    overflow: hidden;
+}
+.imagen-uniforme { display: block; width: 100%; height: 100%; object-fit: cover; }
+.figura-pie { margin-top: .6rem; font-size: .8rem; color: var(--tinta-suave); min-height: 1.3em; }
+
+.dato-texto { font-size: clamp(1.15rem, 3.2vw, 1.4rem); line-height: 1.55; margin: 0; overflow-wrap: anywhere; }
+
+@media (max-width: 575.98px) {
+    .encabezado { padding: 1.5rem 0 1.25rem; margin-bottom: 1.25rem; }
+    .zona { min-height: 18rem; }
+    .seccion-cabecera { padding: .85rem 1rem .75rem; }
+    .seccion .card-body { padding: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .spinner-border { animation-duration: 1.6s; }
+    .boton-seccion { transition: none; }
+}
